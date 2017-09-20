@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shinji.progressbar.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/back_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar android:id="@+id/ProgressBarDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ProgressBar>
+        <ProgressBar android:id="@+id/ProgressBarHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal">
+        </ProgressBar>
+        <ProgressBar android:id="@+id/ProgressBarLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleLarge">
+        </ProgressBar>
+        <ProgressBar android:id="@+id/ProgressBarSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleSmall">
+        </ProgressBar>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
